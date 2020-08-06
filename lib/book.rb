@@ -10,12 +10,12 @@ class Book
     @title = title
   end
 
-  def genre=(genre)
-    @genre = genre
+  def genres=(genres)
+    @genres = genres
   end
   
   def genre
-    @genre
+    genres.each do |genre
   end
 
   def turn_page
